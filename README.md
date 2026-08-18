@@ -1,10 +1,14 @@
 # TokenLearn Frontend
 
+TokenLearn is a peer-to-peer academic tutoring platform built as a final capstone project in B.Sc. Computer Science. 
 React + Vite frontend for TokenLearn.
 
-The client is a browser-based SPA that talks directly to the backend API and is
-deployed as static files from `dist/`.
+### 💡 The Core Concept
+Students who have already completed a course can tutor peers who are currently taking it. To keep the platform completely free and collaborative, TokenLearn operates on a **Token-Based Economy**:
+- **Teach to Earn:** Students earn tokens by hosting tutoring sessions and helping others.
+- **Spend to Learn:** Students use their earned tokens to book help in courses they are currently learning.
 
+The client is a responsive, browser-based SPA that talks directly to the backend API and is deployed as static files from `dist/`.
 Detailed architecture notes: [docs/client-architecture.md](docs/client-architecture.md)
 
 ## Stack
