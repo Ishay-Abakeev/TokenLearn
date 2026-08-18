@@ -1,7 +1,6 @@
 # TokenLearn Frontend
 
 TokenLearn is a peer-to-peer academic tutoring platform built as a final capstone project in B.Sc. Computer Science. 
-React + Vite frontend for TokenLearn.
 
 ### 💡 The Core Concept
 Students who have already completed a course can tutor peers who are currently taking it. To keep the platform completely free and collaborative, TokenLearn operates on a **Token-Based Economy**:
