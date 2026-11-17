@@ -116,7 +116,23 @@ npm run dev
 npm run build
 npm run preview
 npm run lint
+npm test
 ```
+
+## Automated Checks
+
+The repository includes a GitHub Actions workflow that runs on pushes to `main` and pull requests targeting `main`. It installs the locked dependencies, runs ESLint, executes the API-client unit tests with Node's built-in test runner, and creates a production build.
+
+Run the same checks locally:
+
+```bash
+npm ci
+npm run lint
+npm test
+npm run build
+```
+
+The API-client tests cover successful JSON responses, empty `204` responses, bearer-token headers, structured API errors, and the legacy success envelope. These tests validate the frontend HTTP client; they do not replace backend service or database integration tests.
 
 ## Authentication Notes
 
